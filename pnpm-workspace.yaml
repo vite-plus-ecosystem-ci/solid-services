@@ -1,10 +1,11 @@
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
-  vite-plus: latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6b5bbcaf494b963b67950e77a7673de21ba9c6d5
+  vitest: 4.1.11
+  vite-plus: 0.0.0-commit.6b5bbcaf494b963b67950e77a7673de21ba9c6d5
+  "@vitest/ui": 4.1.11
 overrides:
-  vite: "catalog:"
-  vitest: "catalog:"
+  vite@*: "catalog:"
+  vitest@*: "catalog:"
 peerDependencyRules:
   allowAny:
     - vite
